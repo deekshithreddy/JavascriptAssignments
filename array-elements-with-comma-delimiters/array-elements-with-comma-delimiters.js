@@ -1,8 +1,3 @@
-var array = [1,2,3,4,5]
-var result = "";
-for (var value of array) 
-{
-  result += value + ",";
+function printArray(array){
+    return array.join();
 }
-console.log(result.slice(0, result.length - 1));
-

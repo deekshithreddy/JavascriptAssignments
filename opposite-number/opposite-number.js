@@ -1,8 +1,6 @@
-var number = 10;
-
-if(!isNaN(number))
-  {
-  	number = number * (-1) ;
-  }
-console.log(number);
-//return number;
+function opposite(number){
+    if(!isNaN(number)){
+        number = number * -1;
+    }
+    return number;
+}
